@@ -16,8 +16,8 @@ import googleAuthConfig from "./config/google.config";
 
 //setup - microservice routes
 import Auth from "./API/Auth";
-/*import Restaurant from "./API/Restaurant";
-import Food from "./API/Food";
+import Restaurant from "./API/Restaurant";
+/*import Food from "./API/Food";
 import Image from "./API/Image";
 import Order from "./API/Orders";
 import Review from "./API/Reviews";
@@ -46,8 +46,8 @@ googleAuthConfig(passport);
 
 //Application Routes
 zomato.use("/auth", Auth);
-/*zomato.use("/restaurant", Restaurant);
-zomato.use("/food", Food);
+zomato.use("/restaurant", Restaurant);
+/*zomato.use("/food", Food);
 zomato.use("/image", Image);
 zomato.use("/order", Order);
 zomato.use("/review", Review);

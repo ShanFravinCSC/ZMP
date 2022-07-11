@@ -12,7 +12,7 @@ var session = require('express-session')
 
 //configs
 import googleAuthConfig from "./config/google.config";
-//import routeConfig from "./config/route.config";
+import routeConfig from "./config/route.config";
 
 //setup - microservice routes
 import Auth from "./API/Auth";

@@ -42,7 +42,7 @@ zomato.use(passport.session());
 
 //passport configuration
 googleAuthConfig(passport);
-//routeConfig(passport);
+routeConfig(passport);
 
 //Application Routes
 zomato.use("/auth", Auth);

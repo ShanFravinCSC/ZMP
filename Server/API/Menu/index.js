@@ -6,7 +6,7 @@ import passport from "passport";
 import { MenuModel, ImageModel } from "../../database/menu";
 
 //Validation
-//import { ValidateMenuId } from "../../Validation/menu";
+import { ValidateMenuId } from "../../Validation/menu";
 
 //Router Setup
 const Router = express.Router();

@@ -11,7 +11,7 @@ import { UserModel } from "../../database/user"
 const Router = express.Router();
 
 //Signup Validation
-//import { ValidateSignup, ValidateSignin } from "../../Validation/auth"
+import { ValidateSignup, ValidateSignin } from "../../Validation/auth"
 
 /*
 Route   /signup

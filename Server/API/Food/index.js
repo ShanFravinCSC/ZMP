@@ -9,7 +9,7 @@ import { FoodModel } from "../../database/food";
 const Router = express.Router();
 
 //validation
-//import { ValidateRestaurantId, ValidateCategory } from "../../Validation/food"
+import { ValidateRestaurantId, ValidateCategory } from "../../Validation/food"
 
 /*
 Route   /r
